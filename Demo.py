@@ -6,7 +6,7 @@ print(s)
 print(type(s))
 
 # typecasting list to set
-s = set(["a", "b", "c"])
+s = set(["a", "b", "c","d"])
 print(s)
 
 # Adding element to the set
