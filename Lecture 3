@@ -210,3 +210,5 @@ b= None
 print(type(b))
 """
 #Comparison Operators
+
+print(1<2)
