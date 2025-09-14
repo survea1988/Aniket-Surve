@@ -318,4 +318,39 @@ for (a,b,c) in mylist:
 d= {'k1':100,'k2':200,'k3':300}
 for key,value in d.items():  #default is keys() method
     print(value)
-    """
+   
+#while loops
+x=0
+while x<5:
+    print(f'the current value of x is {x}')
+    #x=x+1
+    x+=1
+else:
+    print("x is not less than 5")
+
+
+x=[1,2,3]
+for items in x:
+    pass
+print ('end of my script')
+
+mystring = 'Sammy'
+for letter in mystring:
+    if letter == 'a':
+        continue
+    print(letter)
+
+mystring = 'Sammy'
+for letter in mystring:
+    if letter == 'a':
+        break
+    print(letter)   
+"""
+x= 0
+while x<5:
+    if x==2:
+        break
+    print(x)
+    x+=1
+
+
