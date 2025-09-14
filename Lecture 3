@@ -345,7 +345,7 @@ for letter in mystring:
     if letter == 'a':
         break
     print(letter)   
-"""
+
 x= 0
 while x<5:
     if x==2:
@@ -354,3 +354,47 @@ while x<5:
     x+=1
 
 
+#range function
+for num in range (10):
+    print(num)
+
+for num in range (3,10):
+    print(num)
+   
+    
+for num in range (0,11,2):
+    print(num)
+
+print(list(range(0,11,2)))
+"""
+
+index_counter = 0
+word = 'abcde' #enumerate function
+for letter in word:
+    print(f'at index {index_counter} the letter is {letter}')
+    index_counter += 1
+
+word = 'abcde' #enumerate function
+for index,item in enumerate(word):
+    print(item)
+    print(index)
+
+mylist1  = [1,2,3]
+mylist2 = ['a','b','c']
+zip(mylist1,mylist2)
+for item in zip (mylist1,mylist2):
+    print(item) 
+
+mylist1  = [1,2,3]
+mylist2 = ['a','b','c']
+mylist3 = [100,200,300]
+zip(mylist1,mylist2,mylist3)
+for item in zip (mylist1,mylist2, mylist3  ):
+    print(item) 
+    print(list(zip(mylist1,mylist2,mylist3)))
+
+#in operator
+print('x' in [1,2,3])
+print('x' in ['x','y','z'])
+print('a' in 'a world')
+print ('mykey' in {'mykey':345})
