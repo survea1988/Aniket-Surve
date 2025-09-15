@@ -1,4 +1,4 @@
 {
-    "python-envs.defaultEnvManager": "ms-python.python:system",
-    "python-envs.pythonProjects": []
+  "python.venvPath": "C:/path/to/venvs",
+  "python.defaultInterpreterPath": "C:/path/to/venvs/myenv/Scripts/python.exe"
 }
