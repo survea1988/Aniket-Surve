@@ -475,9 +475,83 @@ print(mylist)
 
 mylist = [x*y for x in [2,4,6] for y in [100,200,300]]
 print(mylist)
-"""
+
 
 st = 'Print only the words that start with s in this sentence'
 for word in st.split():
     if word[0] == 's':
         print(word)
+
+
+#methods 
+
+mylist = [1,2,3]
+mylist.append(4)
+print(mylist)
+
+mylist.pop()
+print(mylist)
+
+mylist.insert(0,'NEW')
+print(mylist)
+
+#functions
+def myfunc():
+    print("Hello world")
+myfunc()
+
+def myfunc(name = "Aniket"):
+    print("hello: " +name)
+myfunc()
+
+def add_num(num1, num2):
+    return num1 + num2
+print(add_num(4,2))
+
+def say_hello():
+    print("hello")
+    print("hello")
+    print("hello")
+say_hello()
+
+def say_hello(name):
+    print(f'Hello {name}')
+say_hello('Aniket  ')
+
+def say_hello(name= "No Name"):
+    print(f'Hello {name}')
+say_hello()
+
+def say_hello(name= "No Name"):
+    print(f'Hello ' +name)
+say_hello()
+
+def add_num(num1, num2):
+    return num1 + num2
+result = add_num(4,2)
+print(result)
+
+def print_result(a,b):
+    print(a+b)
+print_result(10,20)
+
+def return_result(a,b):
+    return a+b
+result = return_result(10,20)
+print(result)
+
+"""
+def myfunc(a,b):
+    print(a+b)
+    return a+b
+myfunc(10,20)
+result = myfunc(10,20)
+print(result)
+
+def sum(num1,num2):
+    return num1+num2    
+print(sum(50,20))
+
+print(sum('10','20'))
+
+
