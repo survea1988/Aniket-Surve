@@ -8,18 +8,16 @@ print(largest)
 ###
 """
 
-# Taking input
-age = int(input())
+age = int(input("Enter age: "))
+print("Age is:", age)
 
-# Write your code here
-if (age<13):
-    result = print("child(<13)")
-elif (age>=13 and age <=17):
-    result = print("Teen (13-17)")
-elif (age>18):
-    result = print ("Adult(18+)")
+if age < 13:
+    result = "child (<13)"
+elif 13 <= age <= 17:
+    result = "Teen (13-17)"
+elif age >= 18:
+    result = "Adult (18+)"
 else:
-    result = print("Invalid")    
-# Print the output
-print(result)
+    result = "Invalid"
 
+print(result)
