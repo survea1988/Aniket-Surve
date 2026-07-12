@@ -1,14 +1,9 @@
-# First program
+# Read two integers and store the largest one in a variable
 
-print("Aniket Surve")
-s = {10, 50, 20}
-print(s)
-print(type(s))
+a = int(input("Enter first integer: "))
+b = int(input("Enter second integer: "))
 
-# typecasting list to set
-s = set(["a", "b", "c","d"])
-print(s)
+largest = a if a > b else b
+print(largest)
 
-# Adding element to the set
-s.add("d")
-print(s)
+
