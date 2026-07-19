@@ -1,5 +1,5 @@
 # Taking input
-age = int(input())
+age = int(input('Enter the age:'))
 
 # Write your code here
 if (age<13):
